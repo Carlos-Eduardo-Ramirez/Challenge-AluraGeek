@@ -1,0 +1,48 @@
+.productos{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-right: 0rem;
+	padding-left: 0rem;
+}
+
+.productos__title{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.productos__all{
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.productos__all:hover{
+	border-bottom: 1px solid #2A7AE4;
+}
+
+.productos__box{
+	display: flex;
+}
+
+.productos__box__name{
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+}
+
+.productos__box__precio{
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.productos__box__view{
+	font-size: 16px;
+	font-weight: 700;
+	width: 100px;
+	height: 19px;
+}
+
+.productos__box__view:hover{
+	border-bottom: 1px solid #2A7AE4;
+
+}

@@ -1,0 +1,63 @@
+.productos{
+	background-color: #F5F5F5;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-right: 0rem;
+	padding-left: 0rem;
+}
+
+.header__productos{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 4rem 0 3rem;
+}
+
+.productos__title{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.productos__agregar{
+	width: 163px;
+	height: 51px;
+	background-color: #2A7AE4;
+	color: white;
+	border: 2px solid #2A7AE4;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.productos__agregar:hover{
+	background-color: white;
+	color: #2A7AE4;
+}
+
+.productos__box{
+	display: flex;
+}
+
+.productos__box__name{
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 1rem;
+}
+
+.productos__box__precio{
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+.productos__box__view{
+	font-size: 16px;
+	font-weight: 700;
+	width: 100px;
+	height: 19px;
+}
+
+.productos__box__view:hover{
+	border-bottom: 1px solid #2A7AE4;
+
+}

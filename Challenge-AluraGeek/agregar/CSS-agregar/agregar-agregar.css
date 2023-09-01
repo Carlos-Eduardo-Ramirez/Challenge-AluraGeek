@@ -1,0 +1,50 @@
+.agregar{
+	background-color: #F5F5F5;
+	width: 1440px;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+.agregar_text{
+	font-size: 32px;
+	font-weight: 700;
+	color: #464646;
+}
+
+.formu__agregar{
+	display: flex;
+	flex-direction: column;
+}
+
+.formu__info{
+	width: 559px;
+	height: 56px;
+	margin-bottom: 1rem;
+	border: 0;
+	border-bottom: 2px solid gray;
+}
+
+.formu__info:focus{
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formu__botonn{
+	width: 559px;
+	height: 56px;
+	background-color: #2A7AE4;
+	color: white;
+	border: 2px solid #2A7AE4;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.formu__botonn:hover{
+	background-color: white;
+	color: #2A7AE4;
+}

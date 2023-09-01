@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<hmtl lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./../agregar/style-agregar.css">
+    <link rel="stylesheet" href="./../agregar/CSS-agregar/cabecera-agregar.css">
+    <link rel="stylesheet" href="./../agregar/CSS-agregar/agregar-agregar.css">
+    <link rel="stylesheet" href="./../agregar/CSS-agregar/contacto-agregar.css">
+    <link rel="stylesheet" href="./../agregar/CSS-agregar/footer-agregar.css">
+
+    <!-- Fuente de pagina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <!-- ícono del buscador -->
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+
+    <title>agregar</title>   
+</head>
+
+<body>
+
+<!-- Sección Cabecera  -->
+    <section class="cabecera">
+        <header class="header">
+            <div class="logo">
+                <div class="logo__icon">
+                    <img class="logo__icon__control" src="./../img/control_logo.png">
+                </div>
+                    <h2><a class="logo__title--blue" href="./../index/index.html">Alura</a></h2>
+                    <h2><a class="logo__title--black" href="./../index/index.html">Geek</a></h2>
+            </div>
+            <div class="buscador">
+                <input class="buscador__text" type="text" placeholder="¿Qué deseas buscar?">
+
+                <!-- ícono del buscador -->
+                <button class="buscador__boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="admin">
+                <span class="admin__boton"><a href=""><button class="login__boton--logi">Menú Administrador</button></a></span>
+            </div>
+        </header>
+    </section>
+
+    <!-- Sección de Agregar producto -->
+    <section class="agregar">
+        <h3 class="agregar_text">Agregar nuevo producto</h3>
+        <form class="formu__agregar" name="form">
+            <input class="formu__info" type="text" name="URL" placeholder="URL de imagen" required>
+            <input class="formu__info" type="text" name="categoria" placeholder="Categoria" required>
+            <input class="formu__info" type="text" name="nombre" placeholder="Nombre del producto" required>
+            <input class="formu__info" type="text" name="precio" placeholder="Precio del producto" required>
+            <textarea class="formu__info" rows="5" cols="40" name="descripcion" placeholder="Descripción del producto" required></textarea>
+            <button type="submit" class="formu__botonn">Agregar producto</button>
+        </form>
+    </section>
+
+     <!-- Sección Contacto -->
+    <section class="contacto">
+        <div class="contacto__logo">
+            <img class="contacto__logo__icon" src="./../img/control_logo.png">
+            <h3 class="contacto__logo__title--blue">Alura</h3>
+            <h3 class="contacto__logo__title--black">Geek</h3>
+        </div>
+        <div class="contacto__opciones">
+            <ul class="opciones__list">
+                <li class="opciones__li"><a href="">Quienes somos</a></li>
+                <li class="opciones__li"><a href="">Politica de privacidad</a></li>
+                <li class="opciones__li"><a href="">Programa de fidelidad</a></li>
+                <li class="opciones__li"><a href="">Nuestras tiendas</a></li>
+                <li class="opciones__li"><a href="">Quiero ser franquiciado</a></li>
+            </ul>
+        </div>
+        <div class="contacto__formu">
+            <h3 class="formu__text">Hable con nosotros</h3>
+            <form class="formu__formulario" name="form">
+                <input class="formu__input" type="text" name="nombre" placeholder="Nombre" required>
+                <textarea class="formu__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit" class="formu__boton">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Eduardo Ramírez Web</p>
+            <p>2023</p>
+        </div>
+    </section>
+
+</body>
+</hmtl>

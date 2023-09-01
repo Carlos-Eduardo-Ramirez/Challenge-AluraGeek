@@ -1,0 +1,49 @@
+.cabecera{
+    
+}
+
+.header{
+    background-color: #FFFFFF;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+	display: flex;
+}
+
+.logo{
+	display: flex;
+    align-items: center;
+}
+
+.logo__title--blue{
+    color: #2A7AE4;
+}
+
+.logo__title--black{
+    color: #464646;
+}
+
+.buscador{
+    display: flex;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+.buscador__text{
+    background: #F5F5F5;
+    padding: 10px;
+    padding-right: 13rem;
+    border-radius: 15px 0 0 15px;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+}
+
+.buscador__boton{
+    background: #F5F5F5;
+    color: grey;
+    padding: 10.5px 15px 10.5px 12px;
+    border: 0;
+    margin: auto;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+
+}

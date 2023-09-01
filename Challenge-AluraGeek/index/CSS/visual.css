@@ -1,0 +1,47 @@
+.visual{
+	width: 1440px;
+	height: 352px;
+	background-image: url("/../img/encabezado.png") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #83F4E6;
+}
+	
+	
+
+.visual__texto{
+	display: flex;
+	flex-direction: column;
+	padding: 8.8rem 0rem 0rem 9.5rem;
+}
+
+.visual__firstText{
+	font-size: 3.5rem;
+	font-weight: 900;
+	color: #ffffff;
+	margin: initial;
+}
+
+.visual__secondText{
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.visual__boton--consolas{
+	background-color: #2A7AE4; 
+    border: 2px solid #2A7AE4;
+    color: white;
+    width: 129px;
+    height: 51px;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.visual__boton--consolas:hover{
+    background-color: white;
+    color: #2A7AE4;
+}

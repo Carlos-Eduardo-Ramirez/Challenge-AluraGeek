@@ -1,0 +1,11 @@
+.productos__consolas{
+	padding-bottom: 2rem;
+}
+
+.header__consolas{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0 4rem 1rem 4rem;
+}

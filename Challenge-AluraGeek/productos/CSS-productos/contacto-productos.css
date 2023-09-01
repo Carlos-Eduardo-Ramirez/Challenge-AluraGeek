@@ -1,0 +1,94 @@
+.contacto{
+	background-color: #EAF2FD;
+	display: flex;
+	justify-content: space-evenly;
+	width: 1440px;
+	height: 368px;
+}
+
+.contacto__logo{
+	display: flex;
+	align-items: start;
+	padding-top: 6rem;
+}
+
+.contacto__logo__title--blue{
+	color: #2A7AE4;
+}
+
+.contacto__logo__title--black{
+	color: #464646;
+}
+
+.contacto__opciones{
+	display: flex;
+	align-items: center;
+}
+
+.opciones__li{
+	padding: 1rem;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.contacto__formu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 560px;
+	height: 240px;
+	padding-top: 4rem;
+}
+
+.formu__text{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.formu__formulario{
+	display: flex;
+	flex-direction: column;
+}
+
+.formu__input{
+	width: 560px;
+	height: 56px;
+	margin-bottom: 1rem;
+	border: 0;
+	border-bottom: 2px solid gray;
+}
+
+.formu__input:focus{
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formu__textarea{
+	width: 560px;
+	height: 82px;
+	margin-bottom: 1rem;
+	border: 0;
+	border-bottom: 2px solid gray;
+}
+
+.formu__textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formu__boton{
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+	background-color: #2A7AE4;
+	color: white;
+	border: 2px solid #2A7AE4;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.formu__boton:hover{
+	background-color: white;
+	color: #2A7AE4;
+}

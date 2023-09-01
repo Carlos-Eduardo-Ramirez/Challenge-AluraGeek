@@ -1,0 +1,16 @@
+.productos__starwars{
+	padding-bottom: 2rem;
+}
+
+.header__starwars{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0 4rem 1rem 4rem;
+}
+
+.box__taza{
+	display: flex;
+	flex-direction: column;
+}
